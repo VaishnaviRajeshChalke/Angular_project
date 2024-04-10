@@ -1,2 +1,4 @@
 # Angular_project 
-Author - Vaishnavi Chalke
+Author - Vaishnavi Chalke 
+<br> 
+Using Languges - Angular, Bootstrap, NgBootsrap
