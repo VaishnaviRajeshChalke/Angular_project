@@ -1,0 +1,16 @@
+<div class="page-wrapper">
+   <app-header></app-header>
+    <div class="page-body-wrapper">
+        <div class="page-sidebar" [class.open]="_CollapseService.openSidebar">
+           <app-sidebar></app-sidebar>
+        </div>
+        <div class="page-body">
+            <div class="container-fluid">
+                <app-breadcrumb></app-breadcrumb>
+            </div>
+            <router-outlet></router-outlet>
+        </div>
+       <app-footer></app-footer>
+    </div>
+</div>
+
